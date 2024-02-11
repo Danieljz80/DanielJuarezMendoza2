@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: rgba(224, 229, 245, 0.8);
+    color: rgba(0, 0, 0, 0.788); 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px; 
+}
+
+header h1{
+    font-size: 85px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.mi_div{
+    text-align: center;
+}
+
+.campo{
+    background-color: rgba(255, 255, 255, 0.856);
+    color: rgb(0, 0, 0); 
+    border-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px; 
+}
+
+.mi_div button{
+    background-color: rgba(11, 98, 197, 0.8); 
+    color: rgb(255, 255, 255); 
+    border-color: rgb(0, 0, 0);
+    width: 120px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+}
+
+    </style>
+    <script src="10_algoritmos.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>% de Hombres y mujeres</h1>
+    </header>
+    <main>
+        <p>Contar porcentaje de mujeres y hombres de un grupo</p>
+        <form action="/" method="post">
+            <label for="hombres">Hombre</label>
+            <input type="text" name="hombres" id="hombres">
+            <br>
+            <br>
+            <label for="mujeres">Mujeres</label>
+            <input type="text" name="mujeres" id="mujeres">
+            <br>
+            <br>
+            <button onclick="tarea5()">Calcular</button>
+        </form>
+    </main>
+    
+</body>
+</html>

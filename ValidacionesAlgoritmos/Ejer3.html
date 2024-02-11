@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color: rgba(224, 229, 245, 0.8); 
+        color: rgba(0, 0, 0, 0.788); 
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        padding-top: 20px;
+    }
+    
+    header h1{
+        font-size: 85px;
+        text-align: center;
+        margin-bottom: 20px; 
+    }
+    
+    .mi_div{
+        text-align: center;
+    }
+    
+    .campo{
+        background-color: rgba(255, 255, 255, 0.856);
+        color: rgb(0, 0, 0); 
+        border-color: rgb(0, 0, 0);
+        width: 200px;
+        height: 40px;
+        font-family: Arial, sans-serif;
+        margin-bottom: 20px; 
+    }
+    
+    .mi_div button{
+        background-color: rgba(11, 98, 197, 0.8);
+        color: rgb(255, 255, 255); 
+        border-color: rgb(0, 0, 0);
+        width: 120px;
+        height: 40px;
+        font-family: Arial, sans-serif;
+    }
+    
+    </style>
+    <script src="10_algoritmos.js "></script>
+</head>
+<body>
+    <header>
+        <h1>Pago total</h1>
+    </header>
+    <main>
+        <h2>Carrito de compra</h2>
+        <form action="">
+
+            <label for="producto1">Producto : $ 100 c/u Cantidad : </label>
+            <select name="producto1" id="producto1">
+                <option value="0">Nada</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <br>
+            <label for="producto2">Producto2 : $ 200 c/u Cantidad :</label>
+            <select name="producto2" id="producto2">
+                <option value="0">Nada</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </form>
+        <p>Total de la compra : (presiona el boton)</p>
+        <br>
+        <button onclick="tarea3()">Ticket</button>
+    </main>
+</body>
+</html>

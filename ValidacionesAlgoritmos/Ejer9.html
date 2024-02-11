@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculadora de Salario</title>
+
+    <style>
+        body{
+            background-color: rgba(224, 229, 245, 0.8); /* Light purple */
+            color: rgba(0, 0, 0, 0.788); /* Black */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column; /* Arrange elements vertically */
+            justify-content: flex-start; /* Align content at the top */
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding-top: 20px; /* Add some space at the top */
+        }
+        
+        header h1{
+            font-size: 85px;
+            text-align: center;
+            margin-bottom: 20px; /* Add some space below the h1 */
+        }
+        
+        .mi_div{
+            text-align: center;
+        }
+        
+        .campo{
+            background-color: rgba(255, 255, 255, 0.856);
+            color: rgb(0, 0, 0);
+            border-color: rgb(0, 0, 0);
+            width: 200px;
+            height: 40px;
+            font-family: Arial, sans-serif;
+            margin-bottom: 20px; 
+        }
+        
+        .mi_div button{
+            background-color: rgba(11, 98, 197, 0.8);
+            color: rgb(255, 255, 255);
+            border-color: rgb(0, 0, 0);
+            width: 120px;
+            height: 40px;
+            font-family: Arial, sans-serif;
+        }
+            </style>
+
+    <script src="10_algoritmos.js">
+    </script>
+</head>
+<body>
+
+    <h1>Dinero x horas extra</h1>
+    
+    <label for="horasNormales">Horas Normales:</label>
+    <input type="text" id="horasNormales" placeholder="Ingrese las horas trabajadas">
+
+    <br>
+    
+    <label for="salarioHoraNormal">Salario por Hora Normal:</label>
+    <input type="text" id="salarioHoraNormal" placeholder="Ingrese el salario por hora normal">
+
+    <br>
+
+    <button onclick="tarea9()">Calcular Salario</button>
+
+</body>
+</html>
